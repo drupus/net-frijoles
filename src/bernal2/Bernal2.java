@@ -15,7 +15,9 @@ public class Bernal2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println ("Que tranza karnal");
+        SALUDO();
     }
-    
+    public static void SALUDO(){
+        System.out.println("Hola Mundo");
+    }
 }
