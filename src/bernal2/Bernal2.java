@@ -54,5 +54,8 @@ public class Bernal2 {
 } 
    public class Division extends Operacion{
     
-    double div = 0;    
+    double div = 0;
+ public Division(double n1, double n2) {
+     
+     
 }
