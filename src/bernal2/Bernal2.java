@@ -30,12 +30,18 @@ public class Bernal2 {
     public void mostrarResultado(){        
         System.out.println(this.n1+" "+this.operacion+" "+this.n2+" = "+this.res);        
     }    
-       public class Suma extends Operacion{
+       public class Suma extends Bernal2{
     
-    double suma;  
+    double suma;
+    public Suma(double n1, double n2) {
+             
+        super(n1, n2, '+');
+        this.suma = n1 + n2;
+        this.setRes(this.suma);
+    }
     }
 
-      public class Multiplicacion extends Operacion{
+      public class Multiplicacion extends Bernal2{
     
     double multi;
        
@@ -46,5 +52,10 @@ public class Bernal2 {
         this.setRes(this.multi);
     }
 } 
-       
+   public class Division extends Operacion{
+    
+    double div = 0;
+ public Division(double n1, double n2) {
+     
+     
 }
