@@ -33,6 +33,7 @@ public class Bernal2 {
        public class Suma extends Operacion{
     
     double suma;  
+    Hola ptos
     }
 
 }
