@@ -32,6 +32,10 @@ public class Bernal2 {
     }    
        public class Suma extends Bernal2{
     
+
+    double suma;  
+    Hola ptos
+=======
     double suma;
     public Suma(double n1, double n2) {
              
@@ -39,6 +43,7 @@ public class Bernal2 {
         this.suma = n1 + n2;
         this.setRes(this.suma);
     }
+
     }
 
       public class Multiplicacion extends Bernal2{
