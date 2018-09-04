@@ -11,6 +11,7 @@ public class Bernal2 {
      */
     public static void main(String[] args) {
 
+
     }
 
     double n1;
@@ -33,4 +34,5 @@ public class Bernal2 {
     
     double suma;  
     }
+
 }
